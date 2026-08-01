@@ -1,8 +1,26 @@
 aid: science-37
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/science-37.png
 name: Science 37 *
-description: 'Science 37 * is a company surfaced as a portfolio company of gv, lux-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Science 37 operates a decentralized, direct-to-patient clinical research
+  platform — the first and only FDA-inspected direct-to-patient site — that delivers
+  clinical trials to participants wherever they are. Its Metasite and Agile Clinical
+  Trial operating model combine patient recruitment, research-grade nursing, telemedicine,
+  eConsent, ePRO, wearable/device integration, and EHR data capture into a single
+  end-to-end SaaS platform used by sponsors and CROs. Backed by GV and Lux Capital,
+  the company has supported 200+ trials across many therapeutic areas. No public developer
+  portal or API surface was found during enrichment (developer./api.science37.com
+  do not resolve); this profile captures identity and domain-security posture only.'
 url: https://raw.githubusercontent.com/api-evangelist/science-37/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Clinical Trials
+- Clinical Research
+- Decentralized Clinical Trials
+- Healthcare
+- Patient Recruitment
+- Telemedicine
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +49,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://science37.com
+  url: https://www.science37.com
+- type: About
+  url: https://www.science37.com/about-us/
+- type: Blog
+  url: https://www.science37.com/news/
+- type: Support
+  url: https://www.science37.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.science37.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.science37.com/terms-conditions/
+- type: SignIn
+  url: https://studies.science37.com/
+- type: DomainSecurity
+  url: security/science-37-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

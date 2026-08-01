@@ -1,0 +1,14 @@
+{
+  "repo": "science-37",
+  "feeds": [
+    {
+      "source": "https://www.science37.com/about-us/",
+      "feed_url": "https://www.science37.com/feed/",
+      "title": "",
+      "saved": 1,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-07-25T15:00:33Z"
+}
